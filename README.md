@@ -1,4 +1,4 @@
-# Quantifying the value of learning for flexible water infrastructure planning (Mwache_Dam Repository)
+# QuantLearning Repository: Quantifying the value of learning for flexible water infrastructure planning
 
 Matlab implementation of a stochastic dynamic program (SDP) for replicating the results in:
 * Skerker, J.B., Zaniolo, M., Willebrand, K., Lickley, M., and Fletcher, S.M., Quantifying the value of learning for flexible water infrastructure planning, Journal of Water Resources Planning and Management, in revision. 
