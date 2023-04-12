@@ -42,6 +42,6 @@ addpath(genpath('repo location/QuantLearning'))
 ```
 3. Use the pre-made transition matrices in the Bayes_July2022 folder or run `TPs_create_VERSION2.m` and update/edit the parameters as needed.
 4. Use the `multiflex_sdp_climate_StaticFlex_DetT_RainRunoff.m` file to obtain monthly time series for runoff using the transition matrices created in 3 or use the pre-run data in `PT_by_state_06Oct2021.mat` and `runoffOnly_by_state_06Oct2021.mat`.
-5. Use the pre-made adaptive or non-adaptive shortage cost results for the reservoir operations model.
+5. Use the pre-made adaptive or non-adaptive shortage cost results obtained previously from the reservoir operations model.
 6. Use the `Multiflex_OptimizeSimulate.m` wrapper function to run the optimization and simulation to determine the optimal static and flexible dam sizes and policies.
 7. Plot the results (and recreate the paper figures) using Plots/PaperFigures
