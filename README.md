@@ -38,7 +38,7 @@ Last updated: April 2023
 
 7. `Mombasa_TandP.mat`: This file contains the temperature and precipitation data for the GCMs used in the analysis. It is located within the Plots subfolder.
 
-8. 41467_2019_9677_MOESM4_ESM.xlsx: This file contains the Mwache River streamflow data used to calibrate CLIRUN II. 
+8. `41467_2019_9677_MOESM4_ESM.xlsx`: This file contains the Mwache River streamflow data used to calibrate CLIRUN II. 
 
 ## How to obtain the high and low learning optimization and simulation results
 
