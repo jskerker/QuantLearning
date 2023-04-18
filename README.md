@@ -3,10 +3,11 @@
 Matlab implementation of a stochastic dynamic program (SDP) for replicating the results in:
 * Skerker, J.B., Zaniolo, M., Willebrand, K., Lickley, M., and Fletcher, S.M., Quantifying the value of learning for flexible water infrastructure planning, Water Resources Research, 2023. 
 
-[![DOI](https://zenodo.org/badge/626448634.svg)](https://zenodo.org/badge/latestdoi/626448634)
 
 Code documentation by: Jenny Skerker, Stanford University
 Last updated: April 2023
+
+[![DOI](https://zenodo.org/badge/626448634.svg)](https://zenodo.org/badge/latestdoi/626448634)
 
 ## Main components
 
