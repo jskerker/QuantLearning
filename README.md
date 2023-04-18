@@ -34,7 +34,11 @@ Last updated: April 2023
 
 5. `multiflex_sdp_climate_StaticFlex_DetT_RainRunoff.m`: this file is a copy of 4., but the parameters are configured differently to only run the stochastic weather generator and the rainfall-runoff model. Then, this data is saved, and can be used to save time when running the wrapper function. This component was run on a supercomputing cluster. The output data from this include time series for precipitation, temperature, and runoff. For precipitation and temperature, there are time series for each time period (5) and each climate state. For runoff, there are time series for each combination of precipitation and temperature for each time period. The currently used data is saved in two files within the CLIRUN subfolder: `PT_by_state_06Oct2021.mat` and `runoffOnly_by_state_06Oct2021.mat`.
 
-6. PostProcess_SDP_ReservoirResults: this folder contains the adaptive and non-adaptive shortage costs. The model parameter runParam.calcShortage must be set to False so that the pre-saved data is loaded. 
+6. PostProcess_SDP_ReservoirResults: this folder contains the adaptive and non-adaptive shortage costs. The model parameter runParam.calcShortage must be set to False so that the pre-saved data is loaded.
+
+7. `Mombasa_TandP.mat`: This file contains the temperature and precipitation data for the GCMs used in the analysis. It is located within the Plots subfolder.
+
+8. 41467_2019_9677_MOESM4_ESM.xlsx: This file contains the Mwache River streamflow data used to calibrate CLIRUN II. 
 
 ## How to obtain the high and low learning optimization and simulation results
 
